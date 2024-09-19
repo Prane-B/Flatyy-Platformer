@@ -87,7 +87,7 @@ while run:
     # Check for collision with the coin
     if link_rect.colliderect(coin_rect):
         score += 1  # Increment score or trigger some action
-        print("Coin collected! Score:", score, level) # Print score or handle it as needed
+        print("Score:", score, level) # Print score or handle it as needed
         level += 1
         px,py = 400,400
     # Draw everything
