@@ -105,7 +105,7 @@ while run:
     screen.blit(link, (px, py))
     if level == 2:
         coin_x, coin_y = 700, 25
-        wall_rect = pygame.Rect(700,-160,10,650)
+        wall_rect = pygame.Rect(650,-160,10,650)
         screen.blit(pygame.transform.rotate(wall,90), (675,-300))
         if link_rect.colliderect(wall_rect):
             px = 550
